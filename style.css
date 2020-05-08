@@ -1,0 +1,358 @@
+.btn {
+    padding-right: 40px;
+    padding-bottom: 30px;
+    float: right;
+    height: 30px;
+    font-size: 12px;
+    background-color: none;
+    width: 80px;
+    border-radius: 0px;
+}
+
+.b {
+    padding-bottom: 5px;
+    float: left;
+    text-align: center;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.k {
+    display: inline;
+    margin-left: 100px;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.f {
+    display: inline-flex;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+.t {
+    background-image: linear-gradient(red, yellow);
+    height: 50px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.im {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.scnd {
+    text-align: center;
+    padding-bottom: 20px;
+    display: inline;
+    margin-left: 160px;
+}
+
+.snd {
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    background-color: whitesmoke;
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+.btn22 {
+    background-color: rgb(51, 90, 197);
+    border-radius: 20px;
+    font-size: 13px;
+    width: auto;
+    height: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 2px;
+    border: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn2 {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 13px;
+    width: auto;
+    height: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 2px;
+    border: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn2:hover {
+    background-color: rgb(51, 90, 197);
+}
+
+.dropbtn {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 13px;
+    width: auto;
+    height: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 2px;
+    border: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    font-size: 14px;
+    background-color: whitesmoke;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 12px;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 12px;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: rgb(97, 112, 201);
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    background-color: white;
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(51, 90, 197);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.i {
+    width: 100%;
+    height: 600px;
+}
+
+.hd {
+    text-align: center;
+    background-color: steelblue;
+    width: 1200px;
+    height: 30px;
+    margin-left: 100px;
+    color: white;
+}
+
+.intro {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.p {
+    width: 900px;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 2em;
+    font-size: 15px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.tr {
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+}
+
+.trd {
+    display: inline-flex;
+    margin-left: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.num {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.tx {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+    float: left;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.col {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: blue;
+    float: left;
+    border: white;
+    background-color: white;
+    margin-left: 20px;
+    height: 200px;
+    padding-top: 20px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 3px rgb(151, 162, 173);
+    width: 400px;
+}
+
+.tre {
+    margin-top: 20px;
+}
+
+.cont {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    float: left;
+    text-align: justify;
+}
+
+.contact {
+    background-image: linear-gradient(red, yellow);
+    width: 100%;
+    height: 200px;
+}
+
+.rep {
+    float: left;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.repp {
+    height: 400px;
+}
+
+.cl {
+    box-shadow: 4px 4px 4px 4px #9b9393;
+    ;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0px;
+    height: 80px;
+    width: 350px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    border: 1px solid wheat;
+}
+
+.rl {
+    float: left;
+}
+
+hr {
+    border: 1px solid;
+}
+
+.pera {
+    box-shadow: 3px 3px 3px 3px rgb(151, 162, 173);
+    width: 250px;
+    height: 300px;
+    border: 1px solid wheat;
+    text-align: center;
+    overflow: scroll;
+    border-radius: 0px;
+    line-break: 1em;
+    line-height: 1em;
+}
+
+.image {
+    padding-left: 40px;
+    height: 200px;
+}
+
+.im1 {
+    float: left;
+    padding-left: 10px;
+}
+
+.i2 {
+    width: 250px;
+    height: 150px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.copy {
+    padding-top: 10px;
+    font-size: 12px;
+    padding-left: 50px;
+    text-align: left;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(71, 71, 148);
+}
